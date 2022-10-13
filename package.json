@@ -1,0 +1,29 @@
+{
+  "name": "ciclo4web",
+  "version": "1.0.0",
+  "description": "Ciclo4Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node back/server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon back/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon back/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opulgarin/ciclo4web.git"
+  },
+  "author": "Team-scrum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opulgarin/ciclo4web/issues"
+  },
+  "homepage": "https://github.com/opulgarin/ciclo4web#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
